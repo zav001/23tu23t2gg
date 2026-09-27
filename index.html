@@ -20,7 +20,7 @@
       <a href="#community">Community</a>
       <a href="#faq">FAQ</a>
     </nav>
-    <a class="btn btn-small btn-primary download" href="downloads/CorzClient--1.0.jar" download>Download</a>
+    <a class="btn btn-small btn-primary download" href="downloads/corz.zip" download>Download</a>
   </header>
 
   <main>
@@ -30,24 +30,10 @@
       <h1>Play smarter.<br><span>Build faster.</span></h1>
       <p class="hero-copy">A powerful toolkit built for players who want cleaner workflows, better builds, and more control.</p>
       <div class="hero-actions">
-        <a class="btn btn-primary download" href="downloads/CorzClient--1.0.jar" download>↓ &nbsp; Download</a>
+        <a class="btn btn-primary download" href="downloads/corz.zip" download>↓ &nbsp; Download</a>
         <a class="btn btn-ghost" href="#features">Explore features</a>
       </div>
       <div class="hero-note"><span class="pulse"></span> Windows &nbsp;•&nbsp; Version 1.0 &nbsp;•&nbsp; Free download</div>
-
-      <div class="hero-panel">
-        <div class="panel-top"><span>LIVE WORKSPACE</span><i></i><i></i><i></i></div>
-        <div class="panel-grid">
-          <aside>
-            <div class="side-active">Overview</div><div>Builder</div><div>Library</div><div>Settings</div>
-          </aside>
-          <div class="mock-main">
-            <div class="mock-title">Your workspace</div>
-            <div class="mock-cards"><div></div><div></div><div></div></div>
-            <div class="mock-chart"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
-          </div>
-        </div>
-      </div>
     </section>
 
     <section class="stats">
@@ -81,16 +67,6 @@
           <p>Keep your builds controlled with safer anchor placement and a cleaner, more reliable workflow.</p>
         </article>
 
-        <article class="feature video-feature">
-          <div class="feature-video">
-            <video src="videos/autospear.mp4" autoplay muted loop playsinline preload="metadata" aria-label="Autospear demonstration"></video>
-            <div class="video-label">AUTOSPEAR</div>
-          </div>
-          <div class="icon">⌁</div>
-          <h3>Autospear</h3>
-          <p>See Autospear in action.</p>
-        </article>
-
         <article class="feature"><div class="icon">⌁</div><h3>Live Tools</h3><p>Keep the useful information close without cluttering your game.</p></article>
         <article class="feature"><div class="icon">◎</div><h3>Clean UI</h3><p>A focused interface with subtle motion and zero unnecessary noise.</p></article>
       </div>
@@ -116,19 +92,24 @@
       <div class="section-kicker">JOIN THE COMMUNITY</div>
       <h2>Ready when<br><span>you are.</span></h2>
       <p>Download the app and start building your own workflow today.</p>
-      <a class="btn btn-primary btn-large download" href="downloads/CorzClient--1.0.jar" download>↓ &nbsp; Download Corz</a>
+      <a class="btn btn-primary btn-large download" href="downloads/corz.zip" download>↓ &nbsp; Download Corz</a>
       <div class="download-meta">Windows 10/11 · Free · No subscription required</div>
     </section>
 
     <section id="faq" class="section faq">
       <div class="section-kicker">FAQ</div>
       <h2>Questions, answered.</h2>
-      <details open><summary>What does the Download button do?</summary><p>It downloads <code>CorzClient--1.0.jar</code> directly.</p></details>
+      <details open><summary>What does the Download button do?</summary><p>It downloads the file configured in <code>downloads/corz.zip</code>. Replace that file or change the href in the HTML to your real download.</p></details>
       <details><summary>Can I use my own branding?</summary><p>Yes. Replace the logo text, copy, icons, and visual elements in the HTML/CSS.</p></details>
       <details><summary>Is this responsive?</summary><p>Yes. The layout adapts for desktop, tablet, and mobile screens.</p></details>
     </section>
-  </main> 
+  </main>
 
   <footer><div class="brand"><span class="brand-dot"></span>corz</div><span>© 2026 Corz. Built for players.</span><a href="#">Privacy</a><a href="#">Terms</a></footer>
+  <script>
+    document.querySelectorAll('.download').forEach(btn => btn.addEventListener('click', () => {
+      // Replace href="downloads/corz.zip" with your real download URL if needed.
+    }));
+  </script>
 </body>
 </html>

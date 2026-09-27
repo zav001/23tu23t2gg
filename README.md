@@ -5,9 +5,11 @@ This is an original, self-contained recreation inspired by the dark gaming aesth
 ## Run
 Open `index.html` directly in a browser, or serve this folder with any static server.
 
-## Download
-All Download buttons link to the included `downloads/CorzClient--1.0.jar`.
-The feature demos are in `videos/`, including `autospear.mp4`.
+## Change the download
+The buttons currently point to:
+`downloads/corz.zip`
+
+Put your real ZIP/EXE/etc. there, or change the `href` on the `.download` links in `index.html` to your download URL.
 
 ## Customize
 - Main styling: `style.css`
